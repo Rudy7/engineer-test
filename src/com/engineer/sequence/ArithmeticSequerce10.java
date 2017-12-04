@@ -7,17 +7,17 @@ package com.engineer.sequence;
  * */
 public class ArithmeticSequerce10 {
 	public void main() {
-		String t = "";
-		int res = 0;
+		String a = "";
+		int t = 0;
 		for(int i=1; i<=100; i++) {
 			if(i==100) {
-				t += i + "="; 
+				a += i + "="; 
 			}else {
-				t += i + "+";
+				a += i + "+";
 			}
-			res += i;
+			t += i;
 		}
-		System.out.print(t + res);
+		System.out.print(a + t);
 	}
 }
 		
